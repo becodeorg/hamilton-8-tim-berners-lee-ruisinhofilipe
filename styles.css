@@ -110,17 +110,18 @@ main {
 .facebook a,
 .linkedin a,
 .twitter a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
   font-size: 1.4rem;
   text-decoration: none;
   color: #cccccc;
 }
 
-.social:hover {
-  color: #7a7a7a;
-}
-
-.social:hover .link {
-  color: #7a7a7a;
+.social a:hover {
+  color: #dd5555;
 }
 
 footer {
